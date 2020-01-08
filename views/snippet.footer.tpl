@@ -55,7 +55,7 @@
 			<div class="col-lg-6 col-md-12">
 				<ul class="list-inline quicklinks">
 					{{ each footer_links as link sort by link.sort_order }}
-					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a></li>
+					<li><a href="{{link.link}}">{{ link.link_title }}</a></li>
 					{{ end-each }}
 				</ul>
 			</div>
