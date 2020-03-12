@@ -7,7 +7,8 @@
 				{{ each homepage_slides as slide sort by slide.sort_order }}
 				{{ if {slide.background_video} }}
 				<div class=""  >
-
+					<span class="background-video" role="video" aria-label="slider-video {{slide.background_video_alt_text }}">
+					</span>
 					<header  style="{{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}" data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
 						<div class="cr" >
 							<div class="cc" >
@@ -26,7 +27,8 @@
 				</div>
 				{{ else }}
 				<div class=""  >
-
+					<span class="background-image" role="img" aria-label="slider-image {{slide.background_image_alt_text }}">
+					</span>
 					<header style="background-image:url('{{slide.background_image.getImage(2500)}}'); {{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}">
 						<div class="cr" >
 							<div class="cc" >
@@ -74,7 +76,7 @@
 					pauseOnHover: false,
 					pauseOnFocus: false,
 				});
-				
+
 			});
 		</script>
 		{{ include script-bg-vid }}
@@ -86,7 +88,7 @@
 					{{ each homepage_squares as square sort by square.sort_order }}
 					<div class="col-md-4">
 						<div class="text-center">
-							<img src="{{ square.image.getImage(700,500,crop) }}">
+							<img src="{{ square.image.getImage(700,500,crop) }}" alt="{{ square.background_image_alt_text }}">
 							<h3>{{ square.image_title }}</h3>
 							{{ if {square.button_text} }}
 							<a class="btn btn-lg btn-primary" href="{{if {square.links_to_external} == '' }}{{ truepath({square.links_to}) }}{{else}}{{square.links_to_external }}{{end-if}}">{{ square.button_text }}</a>
@@ -130,7 +132,7 @@
 								</div>
 								<div class="col-sm-4">
 									<div class="timeline-image">
-										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
+										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.bubble_image_alt_text }}">
 									</div>
 
 								</div>
@@ -160,7 +162,7 @@
 								</div>
 								<div class="col-sm-4">
 									<div class="timeline-image">
-										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
+										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{ timeline.bubble_image_alt_text }}">
 									</div>
 
 								</div>
@@ -188,6 +190,8 @@
 		{{ if {index} % 2 == 0 }}
 		<section class="portfolio bg-light-gray">
 			{{ else if {index} % 2 == 1 }}
+			<span class="background-image" role="img" aria-label="background-image {{ abtsec.about_section_image_alt_text }}">
+	</span>
 			<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
 				{{ end-if }}
 				<div class="">
