@@ -410,7 +410,7 @@
                   <item link_title="FAQ" path_part="faq" parent="resources">
                       <page_title><![CDATA[FAQ]]></page_title>
                       <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/resources-faq.jpeg]]></main_image>
-                      <text name="main_image_alt_text" name_friendly="Main Image Alt Text" />
+                      <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
                         <![CDATA[
                         <p>Please see a list of frequently asked questions below.</p>
@@ -720,6 +720,7 @@
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1" list="1" />
                   <images name="main_image" name_friendly="Main Image" list="1" />
+                  <text name="main_image_alt_text" name_friendly="Main Image Alt Text" />
                   <text name="service_page_alt_text" name_friendly="Service Page Alt Text" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                   <sort name="sort_order" name_friendly="Sort Order" required="1" list="1" />

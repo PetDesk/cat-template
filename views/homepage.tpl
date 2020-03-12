@@ -162,7 +162,7 @@
 								</div>
 								<div class="col-sm-4">
 									<div class="timeline-image">
-										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
+										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{ timeline.bubble_image_alt_text }}">
 									</div>
 
 								</div>
