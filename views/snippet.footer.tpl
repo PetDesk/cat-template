@@ -40,7 +40,7 @@
 		</div>
 		(**<div class="row">
 			<div class="col-md-12">
-				<a class="btn btn-primary" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Request Appointment</a>
+				<a class="btn btn-primary" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" onClick= "ga('set', 'dimension3', 'THEME_CAT'); ga('set', 'page', '/ZESTY/CUSTOMER_WEBSITE_BUTTONCLICK/FOOTER'); ga('send', 'pageview'); ga('send', 'event', 'ZESTY', 'CUSTOMER_WEBSITE_BUTTONCLICK', ’FOOTER’);" >Request Appointment</a>
 			</div>
 		</div>**)
 	</div>
