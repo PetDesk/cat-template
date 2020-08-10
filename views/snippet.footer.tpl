@@ -1,5 +1,5 @@
 <!-- Contact Section -->
-<section id="contact">
+<section id="contact" class="override">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 basic">
