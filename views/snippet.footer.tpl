@@ -1,5 +1,5 @@
 <!-- Contact Section -->
-<section id="contact" class="override">
+<section id="contact" class="override-colors">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 basic">
