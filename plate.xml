@@ -38,28 +38,29 @@
                 <color name="links" name_friendly="4. Links" />
                 <color name="link_hover_color" name_friendly="5. Link Hover Color" />
                 <color name="all_icons" name_friendly="6. All Icons" />
-                <color name="phone_number" name_friendly="7. Header Phone Number" />
-                <color name="all_buttons" name_friendly="8. All Buttons (except for Slider)" />
-                <color name="all_buttons_hover" name_friendly="9. All Buttons Hover (except for Slider)" />
-                <color name="site_name" name_friendly="10. Site Name" />
-                <color name="site_name_hover" name_friendly="11. Site Name Hover" />
-                <color name="all_nav_items" name_friendly="12. All Nav Items" />
-                <color name="all_nav_items_hover" name_friendly="13. All Nav Items Hover" />
-                <color name="nav_active_item_bg_color" name_friendly="14. Nav Active Item Background Color" />
-                <color name="nav_dropdown_bg_color_non_active_items" name_friendly="15. Nav Dropdown Background Color for Non-active Items" />
-                <color name="slider_text" name_friendly="16. Slider Text" />
-                <color name="slider_button" name_friendly="17. Slider Button" />
-                <color name="slider_button_hover" name_friendly="18. Slider Button Hover" />
-                <color name="homepage_squares_title" name_friendly="19. Homepage Squares Title" />
-                <color name="all_timeline_titles" name_friendly="20. Timeline Title, Bubble Titles and Bubble Subtitles" />
-                <color name="timeline_body_text_header_subtitle" name_friendly="21. Timeline Body Text and Main Subtitle" />
-                <color name="timeline_button" name_friendly="22. Timeline Button" />
-                <color name="timeline_button_hover" name_friendly="23. Timeline Button Hover" />
-                <color name="homepage_about_section" name_friendly="24. Homepage About Section" />
-                <color name="footer_text" name_friendly="25. Footer Text" />
-                <color name="sectionlinks" name_friendly="26. Sectionlinks" />
-                <color name="testimonial_headline_and_location" name_friendly="27. Testimonial Header and Location" />
-                <color name="testimonial_name_and_body_text" name_friendly="28. Testimonial Customer Name and Body Text" />
+               <color name="social_icon_icon" name_friendly="7. Social Icon Hover" />   
+                <color name="phone_number" name_friendly="8. Header Phone Number" />
+                <color name="all_buttons" name_friendly="9. All Buttons (except for Slider)" />
+                <color name="all_buttons_hover" name_friendly="10. All Buttons Hover (except for Slider)" />
+                <color name="site_name" name_friendly="11. Site Name" />
+                <color name="site_name_hover" name_friendly="12. Site Name Hover" />
+                <color name="all_nav_items" name_friendly="13. All Nav Items" />
+                <color name="all_nav_items_hover" name_friendly="14. All Nav Items Hover" />
+                <color name="nav_active_item_bg_color" name_friendly="15. Nav Active Item Background Color" />
+                <color name="nav_dropdown_bg_color_non_active_items" name_friendly="16. Nav Dropdown Background Color for Non-active Items" />
+                <color name="slider_text" name_friendly="17. Slider Text" />
+                <color name="slider_button" name_friendly="18. Slider Button" />
+                <color name="slider_button_hover" name_friendly="19. Slider Button Hover" />
+                <color name="homepage_squares_title" name_friendly="20. Homepage Squares Title" />
+                <color name="all_timeline_titles" name_friendly="21. Timeline Title, Bubble Titles and Bubble Subtitles" />
+                <color name="timeline_body_text_header_subtitle" name_friendly="22. Timeline Body Text and Main Subtitle" />
+                <color name="timeline_button" name_friendly="23. Timeline Button" />
+                <color name="timeline_button_hover" name_friendly="24. Timeline Button Hover" />
+                <color name="homepage_about_section" name_friendly="25. Homepage About Section" />
+                <color name="footer_text" name_friendly="26. Footer Text" />
+                <color name="sectionlinks" name_friendly="27. Sectionlinks" />
+                <color name="testimonial_headline_and_location" name_friendly="28. Testimonial Header and Location" />
+                <color name="testimonial_name_and_body_text" name_friendly="29. Testimonial Customer Name and Body Text" />
               </fields>
               <items>
                   <item link_title="" path_part="">
