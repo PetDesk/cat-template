@@ -16,7 +16,7 @@
 /* ---------------------------------------------------------------- */
 /*    3. Homepage squares titles      */
 /* ---------------------------------------------------------------- */
-	#team h3 { color: {{if {accessibility_colors.first().h3_headers_squares_title} }}{{accessibility_colors.first().h3_headers_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+	#team h3.color-override { color: {{if {accessibility_colors.first().h3_headers_squares_title} }}{{accessibility_colors.first().h3_headers_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 	/* add more header colors for h4 h5 h6 */
 
 
