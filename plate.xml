@@ -38,7 +38,7 @@
                 <color name="links" name_friendly="4. Links" />
                 <color name="link_hover_color" name_friendly="5. Link Hover Color" />
                 <color name="all_icons" name_friendly="6. All Icons" />
-               <color name="social_icon_icon" name_friendly="7. Social Icon Hover" />   
+               <color name="social_icon_hover" name_friendly="7. Social Icon Hover" />   
                 <color name="phone_number" name_friendly="8. Header Phone Number" />
                 <color name="all_buttons" name_friendly="9. All Buttons (except for Slider)" />
                 <color name="all_buttons_hover" name_friendly="10. All Buttons Hover (except for Slider)" />
