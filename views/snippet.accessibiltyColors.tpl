@@ -50,7 +50,8 @@
 /* -------------------------------- */
 /*    8. PHONE NUMBER LINK & ICON   */
 /* -------------------------------- */
-	#mainNav .number h3 a { color: {{if {accessibility_colors.first().phone_number_and_icon} }}{{accessibility_colors.first().phone_number_and_icon}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+	#mainNav .number h3 a { color: {{if {accessibility_colors.first().phone_number} }}{{accessibility_colors.first().phone_number}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+	#mainNav .number h3 a span { color: {{if {accessibility_colors.first().phone_number} }}{{accessibility_colors.first().phone_number}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 /* ---------------------------------------------------------------- */
