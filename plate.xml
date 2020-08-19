@@ -34,8 +34,8 @@
               <fields>
                 <color name="site_wide" name_friendly="1. Site Wide" />
                 <color name="subpage_headers_h1" name_friendly="2. Subpage Headers" />
-                <color name="h3_headers_squares_title" name_friendly="3. Employee Cats and Homepage Square Titles" />
-                <color name="h3_headers_employee_cats" name_friendly="4. Employee Cats and Homepage Square Titles" />
+                <color name="h3_headers_squares_title" name_friendly="3. Homepage Square Titles" />
+                <color name="h3_headers_employee_cats" name_friendly="4. Employee Cats" />
                 <color name="links" name_friendly="5. Links" />
                 <color name="link_hover_color" name_friendly="6. Link Hover Color" />
                 <color name="all_icons" name_friendly="7. All Icons" />
