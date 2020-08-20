@@ -50,7 +50,7 @@
 /* -------------------------------- */
 /*     8. Social Icon Hover Color   */
 /* -------------------------------- */
-.fa:hover { color: {{if {accessibility_colors.first().social_icon_hover} }}{{accessibility_colors.first().social_icon_hover}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
+.color-override.fa:hover { color: {{if {accessibility_colors.first().social_icon_hover} }}{{accessibility_colors.first().social_icon_hover}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 
