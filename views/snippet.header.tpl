@@ -11,7 +11,7 @@
 						<ul class="list-inline header-social">
 							{{each social_links as social}}
 							<li class="social-{{social.font_awesome_icon}}">
-								<a style="font-size: {{ clippings.social_media_icon_height }}px;" href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
+								<a style="font-size: {{ clippings.social_media_icon_height }}px;" href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}} color-override"></i></a>
 							</li>
 							{{end-each}}
 						</ul>
