@@ -42,7 +42,7 @@
                 <color name="all_buttons" name_friendly="8. All Buttons (except for Slider)" />
                 <color name="all_buttons_hover" name_friendly="9. All Buttons Hover (except for Slider)" />
                 <color name="social_icon_hover" name_friendly="10. Social Icon Hover" />   
-                <color name="phone_number" name_friendly="11. Header Phone Number" />
+                <color name="phone_number" name_friendly="11. Header Phone Number and Tel Icon" />
                 <color name="site_name" name_friendly="12. Site Name" />
                 <color name="site_name_hover" name_friendly="13. Site Name Hover" />
                 <color name="all_nav_items" name_friendly="14. All Nav Items" />
