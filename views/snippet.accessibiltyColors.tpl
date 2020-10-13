@@ -148,16 +148,11 @@
 /* -------------------------------- */
 	.intro-text a:hover { color: {{if {accessibility_colors.first().slider_button_hover} }}{{accessibility_colors.first().slider_button_hover}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
-	/* Squares */
-/* -------------------------------- */
-/*     21. HOMEPAGE SQUARES TITLE   */
-/* -------------------------------- */
-	#team h3 { color: {{if {accessibility_colors.first().homepage_squares_title} }}{{accessibility_colors.first().homepage_squares_title}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
-
+	
 
 /* Homepage Timeline */
 /* -------------------------------------------------------------- */
-/*       22. TIMELINE TITLE, BUBBLE TITLE, BUBBLE SUBTITLES       */
+/*       21. TIMELINE TITLE, BUBBLE TITLE, BUBBLE SUBTITLES       */
 /* -------------------------------------------------------------- */
 	#about h2 { color: {{if {accessibility_colors.first().all_timeline_titles} }}{{accessibility_colors.first().all_timeline_titles}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
     /* bubble title and subtitle */
@@ -165,26 +160,26 @@
     #about h4 { color: {{if {accessibility_colors.first().all_timeline_titles} }}{{accessibility_colors.first().all_timeline_titles}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 /* ------------------------------------------------ */
-/*      23. TIMELINE MAIN SUBTITLE & BODY TEXT      */
+/*      22. TIMELINE MAIN SUBTITLE & BODY TEXT      */
 /* ------------------------------------------------ */
     #about h3 { color: {{if {accessibility_colors.first().timeline_body_text_header_subtitle} }}{{accessibility_colors.first().timeline_body_text_header_subtitle}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 	#about .timeline-body p { color:  {{if {accessibility_colors.first().timeline_body_text_header_subtitle} }}{{accessibility_colors.first().timeline_body_text_header_subtitle}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 /* -------------------------------- */
-/*        24. TIMELINE BUTTON       */
+/*        23. TIMELINE BUTTON       */
 /* -------------------------------- */
 	#about a { color: {{if {accessibility_colors.first().timeline_button} }}{{accessibility_colors.first().timeline_button}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 /* -------------------------------- */
-/*    25. TIMELINE BUTTON HOVER     */
+/*    24. TIMELINE BUTTON HOVER     */
 /* -------------------------------- */
 	#about a:hover { color: {{if {accessibility_colors.first().timeline_button_hover} }}{{accessibility_colors.first().timeline_button_hover}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 /* ----------------------------------------- */
-/*    26. HOMEPAGE ABOUT SECTION COLORS      */
+/*    25. HOMEPAGE ABOUT SECTION COLORS      */
 /* ----------------------------------------- */
 	/* Section Headline and body text (should be same color) */
 	#portfolio h2 { color: {{if {accessibility_colors.first().homepage_about_section} }}{{accessibility_colors.first().homepage_about_section}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
@@ -192,7 +187,7 @@
 
 
 /* -------------------------------- */
-/*         27. FOOTER TEXT          */
+/*         26. FOOTER TEXT          */
 /* -------------------------------- */
 	/* All footer text including copyright text */
 	#contact.override-colors .basic { color: {{if {accessibility_colors.first().footer_text} }}{{accessibility_colors.first().footer_text}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
@@ -204,7 +199,7 @@
 
 /* SIDEBARS */
 /* -------------------------------- */
-/*          28. SECTION LINKS       */
+/*          27. SECTION LINKS       */
 /* -------------------------------- */
 	/* Sectionlinks headline */
 	.body-content .sectionlinks-container h3 a { color: {{if {accessibility_colors.first().sectionlinks} }}{{accessibility_colors.first().sectionlinks}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
@@ -213,14 +208,14 @@
 
 /* Testimonials Box */
 /* ----------------------------------------- */
-/*    29. TESTIMONIAL HEADER & LOCATION      */
+/*    28. TESTIMONIAL HEADER & LOCATION      */
 /* ----------------------------------------- */
 	.body-content .sidebar .testimonial h4 { color: {{if {accessibility_colors.first().testimonial_headline_and_location} }}{{accessibility_colors.first().testimonial_headline_and_location}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 	.body-content .sidebar .testimonial h6 { color: {{if {accessibility_colors.first().testimonial_headline_and_location} }}{{accessibility_colors.first().testimonial_headline_and_location}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 /* ------------------------------------------ */
-/*     30. Testimonial name and body text     */
+/*     29. Testimonial name and body text     */
 /* ------------------------------------------ */
 	.body-content .sidebar .testimonial h5 { color: {{if {accessibility_colors.first().testimonial_name_and_body_text} }}{{accessibility_colors.first().testimonial_name_and_body_text}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 	/* Testimonial text */
