@@ -210,12 +210,12 @@
                         <second_line><![CDATA[]]></second_line>
                         <background_video></background_video>
                         <background_video_alt_text><![CDATA[]]></background_video_alt_text>
-                        <background_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/home-hero.HyfKW2OUul.jpeg]]></background_image>
+                        <background_image><![CDATA[https://tmmnm8vm.media.zestyio.com/home-hero.HyfKW2OUul.jpeg]]></background_image>
                         <background_image_alt_text><![CDATA[]]></background_image_alt_text>
                         <horizontal_alignment_for_mobile><![CDATA[]]></horizontal_alignment_for_mobile>
                         <button_text><![CDATA[]]></button_text>
                         <links_to><![CDATA[]]></links_to>
-                        <sort_order><![CDATA[]]></sort_order>
+                        <sort_order><![CDATA[1]]></sort_order>
                     </item>
                 </items>
             </dataset>
