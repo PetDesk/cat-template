@@ -1,4 +1,4 @@
-// Global Components
+/* Global Components */
 html {
 	overflow: auto;
 }
@@ -8,7 +8,10 @@ body {
 	background-image:url(@body-bg-image);
 	background-repeat:@body-bg-image-repeat;
 	background-size:@body-bg-image-size;
-	.body-font;
+	font-family: @font-family-base, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: @text-color;
+	font-size:@font-size-base;
+	line-height:@line-height-computed;
 }
 .container {
 
@@ -140,13 +143,19 @@ img {
 
 .btn-primary {
 	.button-variant(@btn-default-color; @btn-default-bg; @btn-hover-bg-color);
-	.heading-font;
+	font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
+  text-transform: uppercase;
 	font-weight: 700;
 }
 
 .btn-xl {
 	.button-variant(white; @theme-primary; @theme-primary);
-	.heading-font;
+	font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
+  text-transform: uppercase;
 	font-weight: 700;
 	border-radius: 3px;
 	font-size: 18px;
@@ -233,7 +242,10 @@ img {
 		padding:0;
 		color: @theme-primary;
 		margin-bottom:10px;
-		.heading-font;
+		font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
+  text-transform: uppercase;
 		&:hover,
 			&:focus,
 			&:active,
@@ -263,7 +275,10 @@ img {
 	.navbar-toggle {
 		background-color: @theme-primary;
 		border-color: @theme-primary;
-		.heading-font;
+		font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
+  text-transform: uppercase;
 		color: white;
 		font-size: 12px;
 		&:hover,
@@ -288,7 +303,10 @@ img {
 				padding-bottom: 0px;
 			}
 			a {
-				.heading-font;
+				font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
+  text-transform: uppercase;
 				font-weight: 400;
 				letter-spacing: 1px;
 				color: @navbar-default-link-color;
@@ -393,7 +411,10 @@ header {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
-	.background-cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 	text-align: center;
 	color: @headings-color;
 	min-height: 60vh;
@@ -408,14 +429,17 @@ header {
 			}
 		}
 		.intro-lead-in {
-			.serif-font;
+			font-family: @serif-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
 			font-style: italic;
 			font-size: 22px;
 			line-height: 22px;
 			margin-bottom: 25px;
 		}
 		.intro-heading {
-			.heading-font;
+			font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
+  text-transform: uppercase;
 			font-weight: 700;
 			font-size: 50px;
 			line-height: 50px;
@@ -439,14 +463,17 @@ header {
 			//padding-top: @default-spacing*4;
 			//padding-bottom: @default-spacing*2;
 			.intro-lead-in {
-				.serif-font;
+				font-family: @serif-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
 				font-style: italic;
 				font-size: 40px;
 				line-height: 40px;
 				margin-bottom: 25px;
 			}
 			.intro-heading {
-				.heading-font;
+				font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
+  text-transform: uppercase;
 				font-weight: 700;
 				font-size: 75px;
 				line-height: 75px;
@@ -472,7 +499,7 @@ section, .recipe-wrap {
 	}
 	h3.section-subheading {
 		font-size: 16px;
-		.serif-font;
+		font-family: @serif-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: none;
 		font-style: italic;
 		font-weight: 400;
@@ -572,7 +599,7 @@ section#portfolio {
 				margin: 0;
 			}
 			p {
-				.serif-font;
+				font-family: @serif-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
 				font-style: italic;
 				font-size: 16px;
 				margin: 0;
@@ -840,22 +867,34 @@ section#contact {
 		box-shadow: none;
 	}
 	::-webkit-input-placeholder {
-		.heading-font;
+		font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height:@headings-line-height;
+		font-weight:@headings-font-weight;
+		text-transform: uppercase;
 		font-weight: 700;
 		color: @gray-lighter;
 	}
 	:-moz-placeholder { /* Firefox 18- */
-		.heading-font;
+		font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height:@headings-line-height;
+		font-weight:@headings-font-weight;
+		text-transform: uppercase;
 		font-weight: 700;
 		color: @gray-lighter;
 	}
 	::-moz-placeholder {  /* Firefox 19+ */
-		.heading-font;
+		font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height:@headings-line-height;
+		font-weight:@headings-font-weight;
+		text-transform: uppercase;
 		font-weight: 700;
 		color: @gray-lighter;
 	}
 	:-ms-input-placeholder {
-		.heading-font;
+		font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height:@headings-line-height;
+		font-weight:@headings-font-weight;
+		text-transform: uppercase;
 		font-weight: 700;
 		color: @gray-lighter;
 	}
@@ -872,13 +911,19 @@ footer {
 	.container {background:none;}
 	span.copyright {
 		line-height: 40px;
-		.heading-font;
+		 font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height:@headings-line-height;
+		font-weight:@headings-font-weight;
+		text-transform: uppercase;
 		text-transform: none;
 	}
 	ul.quicklinks {
 		margin-bottom: 0;
 		line-height: 40px;
-		.heading-font;
+		 font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height:@headings-line-height;
+		font-weight:@headings-font-weight;
+		text-transform: uppercase;
 		text-transform: none;
 	}
 	@media(max-width: @sm) {
@@ -1019,7 +1064,7 @@ ul.social-buttons {
 		}
 		p.item-intro {
 			margin: 20px 0 30px;
-			.serif-font;
+			font-family: @serif-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
 			font-style: italic;
 			font-size: 16px;
 		}
